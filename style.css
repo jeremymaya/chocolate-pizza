@@ -1,0 +1,43 @@
+* {
+    outline: dotted 1px orange;
+}
+
+body {
+    font-family: sans-serif;
+    background: url("img/PREVIEW.jpg") no-repeat top center;
+    height: 1970px;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+    padding: 35px 50px;
+    display: flex;
+}
+
+#logo {
+    display: inline-block;
+}
+
+.wordmark {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#social-links {
+    display: inline-block;    
+    align-self: flex-end;
+}
+
+#social-links > li {
+    display: inline-block;
+}
+
+hr {
+    
+}
+
+main {
+    width: 960px;
+    margin: auto;
+}
