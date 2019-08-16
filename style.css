@@ -42,15 +42,47 @@ hr {
 }
 
 main {
-    width: 960px;
+    width: 900px;
     margin: auto;
 }
 
 .hero {
     margin-top: 60px;
+    position: relative;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 45px;
+}
+
+.hero > h4 {
+    display: inline-block;
+}
+
+.hero > a {
+    float: right;
+}
+
+.hero > img {
+    clear: both;
+    margin: auto;
+    margin-top: 25px;
+    width: 900px;
+}
+
+article > p {
+    margin-top: 35px;
+    text-indent: 30px;
+    font-family: "Georgia", serif;
+    letter-spacing: 0.1px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #595556;
+}
+
+#recipe {
+    margin-top: 35px;
+    background: url("img/list-bg.png");
+    font-family: 'Patrick Hand', cursive;
 }
