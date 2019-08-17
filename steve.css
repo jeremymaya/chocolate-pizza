@@ -1,0 +1,21 @@
+button {
+    background: #bc7058;
+    display: inline-block;
+    width: 180px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 24px;
+    color: #dedede;
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    float: right;
+
+}
+
+button:active,
+button:hover {
+    outline: none;
+    border: none;
+    background: #9e5e4b;
+    transition: 350ms all;
+}
