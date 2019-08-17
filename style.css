@@ -1,10 +1,5 @@
-* {
-    outline: dotted 1px orange;
-}
-
 body {
     font-family: sans-serif;
-    background: url("img/PREVIEW.jpg") no-repeat top center;
     height: 1970px;
 }
 
@@ -28,8 +23,6 @@ header {
     color: #333;
     padding-left: 5px;
 }
-
-
 
 #social-links {
     position: absolute;
@@ -109,24 +102,22 @@ article > p {
 
 #recipe {
     margin-top: 40px;
-    /* background: url("img/list-bg.png"); */
+    background: url("img/list-bg.png");
     font-family: 'Patrick Hand', cursive;
     height: 230px;
     color: #756750;
-    padding: 35px 50px;
+    padding: 35px 60px;
     font-size: 22px;
     display: flex;
 }
 
 #recipe > ul {
     flex-basis: 350px;
+    margin-right: 50px;
 }
 
-#recipe > ul:last-child {
-}
-
-#recipe > li {
-    padding: 5px 10px;
+#recipe li {
+    margin-bottom: 10px;
 }
 
 input {
@@ -139,16 +130,23 @@ article > hr {
 }
 
 footer {
-    margin-top: 90px;
+    margin-top: 80px;
     font-family: 'Libre Baskerville', serif;
     font-size: 13px;
     text-align: center;
     line-height: 20px;
     letter-spacing: -0.2px;
     color: #a5a5a5;
+    position: relative;
 }
 
 .footer-rule {
     border-top: 1px solid #a5a5a5;
     background: none;
+}
+
+.footer-rule > img {
+    position: absolute;
+    margin-bottom: 10px;
+    top: 0;
 }
