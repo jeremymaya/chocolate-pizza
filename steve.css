@@ -1,15 +1,49 @@
+body #author {
+    margin-top: 20px;
+    display: flex;
+}
+
+#author img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+#author .bio {}
+
+#author .bio h3 {
+    font-size: 19px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    color: #222;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#author p {
+    margin-top: 35px;
+    text-indent: 30px;
+    font-family: "Georgia", serif;
+    letter-spacing: 0.1px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #555;
+    text-indent:none;
+    
+}
+
 button {
     background: #bc7058;
     display: inline-block;
-    width: 180px;
+    width: 220px;
     height: 54px;
     line-height: 54px;
     font-size: 24px;
     color: #dedede;
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
-    float: right;
-
+    outline: none;
+    border: none;
+    margin-top:8px;
 }
 
 button:active,
