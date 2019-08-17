@@ -1,5 +1,5 @@
 * {
-    /* outline: dotted 1px orange; */
+    outline: dotted 1px orange;
 }
 
 body {
@@ -12,7 +12,7 @@ header {
     width: 900px;
     margin: auto;
     padding: 35px 50px 27px;
-    display: flex;
+    position: relative;
 }
 
 #logo {
@@ -22,11 +22,19 @@ header {
 .wordmark {
     display: inline-block;
     vertical-align: top;
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #333;
+    padding-left: 5px;
 }
 
+
+
 #social-links {
-    display: inline-block;    
-    align-self: flex-end;
+    position: absolute;
+    right: 50px;
+    top: 45px;
 }
 
 #social-links > li {
@@ -39,6 +47,7 @@ hr {
     height: 10px;
     width: 900px;
     margin: 0 auto;
+    border: none;
 }
 
 main {
@@ -106,10 +115,18 @@ article > p {
     color: #756750;
     padding: 35px 50px;
     font-size: 22px;
+    display: flex;
 }
 
-li {
-    padding: 2.5px 10px;
+#recipe > ul {
+    flex-basis: 350px;
+}
+
+#recipe > ul:last-child {
+}
+
+#recipe > li {
+    padding: 5px 10px;
 }
 
 input {
@@ -121,7 +138,17 @@ article > hr {
     margin-top: 40px;
 }
 
-#author {
-    margin-top: 20px;
-    display: inline-block;
+footer {
+    margin-top: 90px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    color: #a5a5a5;
+}
+
+.footer-rule {
+    border-top: 1px solid #a5a5a5;
+    background: none;
 }
