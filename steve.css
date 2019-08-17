@@ -20,14 +20,14 @@ body #author {
 }
 
 #author p {
-    margin-top: 35px;
+    margin-top: 10px;
     text-indent: 30px;
     font-family: "Georgia", serif;
     letter-spacing: 0.1px;
     font-size: 17px;
     line-height: 24px;
     color: #555;
-    text-indent:none;
+    text-indent:0;
     
 }
 
